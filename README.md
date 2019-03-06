@@ -26,5 +26,15 @@ You can install this as a command by removing the ".sh" extension, adding an exe
     $ cp iati-validate.sh $HOME/bin/iati-validate
     $ chmod +x $HOME/bin/iati-validate
 
+## Example
+
+Validate DFID's Asia Regional activities file:
+
+    $ sh iati-validate.sh "http://iati.dfid.gov.uk/iati_files/Region/DFID-Asia-regional-798.xml"
+    
+(or, if installed as a command)
+
+    $ iati-validate "http://iati.dfid.gov.uk/iati_files/Region/DFID-Asia-regional-798.xml"
+
 ## License
 This script is in the Public Domain.
